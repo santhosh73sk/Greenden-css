@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(185, 255, 232);
+    padding: 5px;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    position: sticky;
+    border-bottom: black solid 1px;
+    box-shadow: 10px 10px 10px black;
+}
+li{
+    display: inline;
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+    margin-left: 70%;
+}
+.container{
+    background-color: rgb(185, 255, 232);
+    padding: 50px;
+}
+.headerplant{
+    float: right;
+    width: 200px;
+    margin-left: 100px;
+    animation-name: santhosh;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    } 
+@keyframes santhosh{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-right: 80px;
+    }
+}
+
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    width: 102px;
+    padding: 5px;
+}  
+button:hover{
+    background-color: white;
+    color: black;
+    } 
+.one{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    
+}
+.two{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 10px;
+   }
+.aboutcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.name{
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+.product{
+   
+    background-color:rgb(185, 255, 232); 
+    margin-top: 30px;
+   text-align: center;
+}
+.p1{
+    float: left;
+    margin-left: 50px;
+}
+.p3{
+    float: right;
+    margin-right: 50px;
+}
+.web3{
+    background-color: rgb(185, 255, 232);
+    width: 500PX;
+    float: right;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+.step1{
+    align-self: center;
+    padding: 10px;
+}
+.webcon3{
+    background-color: rgb(185, 255, 232);
+    margin-top: 50px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    }
+
+img{
+    width: 200px;
+}
+.subcribe{
+    align-items: center;
+    margin: 20px;
+}
+footer{
+    margin-top: 10px;
+    padding: 50px;
+    background-color:rgb(185, 255, 232); 
+}
+.bottom{
+    width: 30px;
+}
+body{
+    font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.i:hover{
+    width:250px;
+}
+
